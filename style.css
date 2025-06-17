@@ -26,112 +26,112 @@
   src: url("./fonts/cmunrm.ttf");
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 0.5rem ;
+html {
+  font-size: 0.5rem;
 }
 
-body{
-    font-family: "HIMECATOR-2", "CircularStd";
-    /* font-size: 40px; */ /* גודל הפונט */
+body {
+  font-family: "HIMECATOR-2", "CircularStd";
+  /* font-size: 40px; */ /* גודל הפונט */
 
-    color: black; /* צבע הטקסט */
+  color: black; /* צבע הטקסט */
 }
 
-main{
-    border: 1px solid black;
-    max-width: 1750px;
-    margin: 0 auto;
+main {
+  border: 1px solid black;
+  max-width: 1750px;
+  margin: 0 auto;
 }
 
-header{
-    width: 100%; /* relative to its parent */
-    border: 1px solid rgb(255, 61, 61);
+header {
+  width: 100%; /* relative to its parent */
+  border: 1px solid rgb(255, 61, 61);
 }
 
-h1{
-    font-size: 2.5rem;
-    border: 1px solid rgb(90, 61, 255);
-    /* background-color: yellow; */
+h1 {
+  font-size: 2.5rem;
+  border: 1px solid rgb(90, 61, 255);
+  /* background-color: yellow; */
 }
 
-h2{
+h2 {
   font-size: 3rem;
   border: 1px solid rgb(0, 225, 255);
 }
 
-.title-pos-1{
+.title-pos-1 {
   margin-left: 1.5em;
   margin-top: 4em;
   margin-bottom: 4em;
 }
 
-.title-pos-2{
-    /* background-color: yellow; */
-    margin-left: 1.5em;
-    margin-top: 2em;
-    margin-bottom: 6em;
+.title-pos-2 {
+  /* background-color: yellow; */
+  margin-left: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 6em;
 }
 
-.title-pos-3{
-    /* background-color: yellow; */
-    margin-left: 1.5em;
-    margin-top: 6em;
-    margin-bottom: 2em; 
+.title-pos-3 {
+  /* background-color: yellow; */
+  margin-left: 1.5em;
+  margin-top: 6em;
+  margin-bottom: 2em;
 }
 
-.title-pos-4{
-    /* background-color: yellow; */
-    margin-left: 7em;
-    margin-top: 4em;
-    margin-bottom: 4em; 
+.title-pos-4 {
+  /* background-color: yellow; */
+  margin-left: 7em;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
-.title-pos-5{
+.title-pos-5 {
   /* background-color: yellow; */
   margin-left: 3em;
   margin-top: 6em;
-  margin-bottom: 2em; 
+  margin-bottom: 2em;
 }
 
-.title-pos-6{
+.title-pos-6 {
   /* background-color: yellow; */
   margin-left: 5.6em;
   margin-top: 4em;
-  margin-bottom: 4em; 
+  margin-bottom: 4em;
 }
 
-.title-pos-7{
+.title-pos-7 {
   /* background-color: yellow; */
   margin: 1.5em;
 }
 
-.content-container{
-    border: 1px dotted green;
-    width: 100%;
-     /* simulate a size  */
-     /* height: 200vh; */
-    margin: 0px auto;
-    position: relative;
+.content-container {
+  border: 1px dotted green;
+  width: 100%;
+  /* simulate a size  */
+  /* height: 200vh; */
+  margin: 0px auto;
+  position: relative;
 }
 
-.content{
-    border: 1px dotted blue;
-    width: 60%;
+.content {
+  border: 1px dotted blue;
+  width: 60%;
 
-    /* simulate a size  */
-    /* height: 100vh;  */
+  /* simulate a size  */
+  /* height: 100vh;  */
 
-    margin: 10px auto;
-    position: relative;
+  margin: 10px auto;
+  position: relative;
 }
 
-.content-about-bio{
+.content-about-bio {
   border: 1px dotted blue;
   width: 60%;
   /* simulate a size  */
@@ -141,9 +141,8 @@ h2{
   position: relative;
 }
 
-
-.menu-container{
-  border: 2px dotted rgb(255, 248, 35);
+.menu-container {
+  border: 2px solid rgb(30, 0, 255);
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -153,14 +152,18 @@ h2{
   font-size: 2rem;
 }
 
-.menu{
-  border: 2px dotted rgb(164, 52, 97);
-  display: flex;
-  flex-direction: column;
-  font-family: "HIMECATOR-2", sans-serif;
-  width: 80%;
+.submenu-container {
+  border: 2px solid rgb(255, 238, 0);
+  margin-left: 2em ;
 }
 
+.menu {
+  border: 2px dotted rgb(164, 52, 97);
+  /* display: flex;
+  flex-direction: row; */
+  font-family: "HIMECATOR-2", sans-serif;
+  /* width: 80%; */
+}
 
 /* .menu-button{
   font-family: "CircularStd-M", sans-serif;
@@ -168,7 +171,7 @@ h2{
   /* width: 30px;
   top: 0.5em;
   left: 1.5em;; */
-  /* border: none;
+/* border: none;
   background-color: transparent;
   text-decoration: none; */
 /* }
@@ -176,15 +179,14 @@ h2{
 /* .menu-sub-button{
   font-family: "HIMECATOR-2", sans-serif;
   font-size: 1rem; */
-  /* position: absolute; /* relative to its closest relative parent */
-  /* width: 30px;
+/* position: absolute; /* relative to its closest relative parent */
+/* width: 30px;
   top: 0.5em;
   left: 1.5em;; */
-  /* border: none;
+/* border: none;
   background-color: transparent;
   text-decoration: none; */
 /* } */
-
 
 .text-center {
   text-align: center;
@@ -195,85 +197,80 @@ h2{
   display: flex;
   justify-content: center;
 }
-.contacts{
+.contacts {
   border: 2px dotted rgb(44, 115, 173);
   display: flex;
   flex-direction: column;
 }
 
-
-.back-button{
-    font-family: "cmunrm", sans-serif;
-    font-size: 2.5rem;
-    position: absolute; /* relative to its closest relative parent */
-    width: 30px;
-    top: 0.5em;
-    left: 1.5em;;
-    border: none;
-    background-color: transparent;
-    text-decoration: none;
+.back-button {
+  font-family: "cmunrm", sans-serif;
+  font-size: 2.5rem;
+  position: absolute; /* relative to its closest relative parent */
+  width: 30px;
+  top: 0.5em;
+  left: 1.5em;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-
-img{
-    width: 100%;
-    margin-bottom: 8rem;
+img {
+  width: 100%;
+  margin-bottom: 8rem;
 }
 
+.work-title {
+  font-family: "cmunrm", sans-serif;
+  font-size: 2rem; /* גודל הפונט*/
 
-.work-title{
-    font-family: "cmunrm", sans-serif;
-    font-size: 2rem;  /* גודל הפונט*/
-
-    font-style: italic;
-    font-weight: normal; /* משקל הפונט */
-    text-align: left; /* ממרכז את הטקסט */
-    color: black; /* צבע הטקסט */
-}
-  
-
-.description{
-    font-family: "cmunrm", sans-serif;
-    font-size: 2rem;
-    font-weight: normal; /* משקל הפונט */
-    /* text-align: left;  */
-    /* ממרכז את הטקסט */
-    color: black; /* צבע הטקסט */
-}
-.caption-container{
-    border: 1px solid violet;
-    margin-bottom: 2rem;
+  font-style: italic;
+  font-weight: normal; /* משקל הפונט */
+  text-align: left; /* ממרכז את הטקסט */
+  color: black; /* צבע הטקסט */
 }
 
-.special-1{
-    font-family: "HIMECATOR-2", sans-serif;
-    /* font-size: 40px; */ /* גודל הפונט */
-    font-weight: normal; /* משקל הפונט */
-    text-align: left; /* ממרכז את הטקסט */
-    color: black; /* צבע הטקסט */
-  }
+.description {
+  font-family: "cmunrm", sans-serif;
+  font-size: 2rem;
+  font-weight: normal; /* משקל הפונט */
+  /* text-align: left;  */
+  /* ממרכז את הטקסט */
+  color: black; /* צבע הטקסט */
+}
+.caption-container {
+  border: 1px solid violet;
+  margin-bottom: 2rem;
+}
 
-.special-2{
-    font-family: "Aisle", sans-serif;
-    /* font-size: 40px; */ /* גודל הפונט */
-    font-weight: normal; /* משקל הפונט */
-    text-align: left; /* ממרכז את הטקסט */
-    color: black; /* צבע הטקסט */
-  }
+.special-1 {
+  font-family: "HIMECATOR-2", sans-serif;
+  /* font-size: 40px; */ /* גודל הפונט */
+  font-weight: normal; /* משקל הפונט */
+  text-align: left; /* ממרכז את הטקסט */
+  color: black; /* צבע הטקסט */
+}
 
-  .special-3{
-    font-family: "CircularStd", sans-serif;
-    /* font-size: 40px; */ /* גודל הפונט */
-    font-weight: normal; /* משקל הפונט */
-    text-align: left; /* ממרכז את הטקסט */
-    color: black; /* צבע הטקסט */
-  }
-  
-  .special-3M{
-    font-family: "CircularStd-M", sans-serif;
-    /* font-size: 40px; */ /* גודל הפונט */
-    font-weight: normal; /* משקל הפונט */
-    text-align: left; /* ממרכז את הטקסט */
-    color: black; /* צבע הטקסט */
-  }
+.special-2 {
+  font-family: "Aisle", sans-serif;
+  /* font-size: 40px; */ /* גודל הפונט */
+  font-weight: normal; /* משקל הפונט */
+  text-align: left; /* ממרכז את הטקסט */
+  color: black; /* צבע הטקסט */
+}
 
+.special-3 {
+  font-family: "CircularStd", sans-serif;
+  /* font-size: 40px; */ /* גודל הפונט */
+  font-weight: normal; /* משקל הפונט */
+  text-align: left; /* ממרכז את הטקסט */
+  color: black; /* צבע הטקסט */
+}
+
+.special-3M {
+  font-family: "CircularStd-M", sans-serif;
+  /* font-size: 40px; */ /* גודל הפונט */
+  font-weight: normal; /* משקל הפונט */
+  text-align: left; /* ממרכז את הטקסט */
+  color: black; /* צבע הטקסט */
+}
