@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* טוען את הפונט מהמחשב */
+@font-face {
+  font-family: "HIMECATOR-2";
+  src: url("./fonts/HIMECATOR-Regular-2.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Aisle";
+  src: url("./fonts/Aisle-Regular.ttf");
+}
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("./fonts/CircularStd-Book.otf");
+}
+
+@font-face {
+  font-family: "CircularStd-M";
+  src: url("./fonts/CircularStd-Medium.otf");
+}
+
+@font-face {
+  font-family: "cmunrm";
+  src: url("./fonts/cmunrm.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 0.5rem ;
+}
+
+body{
+    font-family: "HIMECATOR-2", "CircularStd";
+    /* font-size: 40px; */ /* גודל הפונט */
+
+    color: black; /* צבע הטקסט */
+}
+
+main{
+    border: 1px solid black;
+    max-width: 1750px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%; /* relative to its parent */
+    border: 1px solid rgb(255, 61, 61);
+}
+
+h1{
+    font-size: 2.5rem;
+    border: 1px solid rgb(90, 61, 255);
+    /* background-color: yellow; */
+
+}
+.title-pos-1{
+  margin-left: 1.5em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.title-pos-2{
+    /* background-color: yellow; */
+    margin-left: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
+.title-pos-3{
+    /* background-color: yellow; */
+    margin-left: 1.5em;
+    margin-top: 6em;
+    margin-bottom: 2em; 
+}
+
+.title-pos-4{
+    /* background-color: yellow; */
+    margin-left: 7em;
+    margin-top: 4em;
+    margin-bottom: 4em; 
+}
+
+.title-pos-5{
+  /* background-color: yellow; */
+  margin-left: 3em;
+  margin-top: 6em;
+  margin-bottom: 2em; 
+}
+
+.title-pos-6{
+  /* background-color: yellow; */
+  margin-left: 5.6em;
+  margin-top: 4em;
+  margin-bottom: 4em; 
+}
+
+.content-container{
+    border: 1px dotted green;
+    width: 100%;
+     /* simulate a size  */
+     /* height: 200vh; */
+    margin: 0px auto;
+    position: relative;
+}
+
+.content{
+    border: 1px dotted blue;
+    width: 60%;
+
+    /* simulate a size  */
+    /* height: 100vh;  */
+
+    margin: 10px auto;
+    position: relative;
+}
+
+.content-about-bio{
+  border: 1px dotted blue;
+  width: 60%;
+
+  /* simulate a size  */
+  /* height: 100vh;  */
+
+  margin: 30px auto;
+  position: relative;
+}
+
+.content-contact{
+  border: 1px dotted blue;
+  width: 180px;
+  /* simulate a size  */
+  /* height: 100vh;  */
+
+  margin: 30px auto;
+  position: relative;
+}
+
+button{
+    font-family: "cmunrm", sans-serif;
+    font-size: 2.5rem;
+    position: absolute; /* relative to its closest relative parent */
+    width: 30px;
+    top: 0.5em;
+    left: 1.5em;;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+
+.work-title{
+    font-family: "cmunrm", sans-serif;
+    font-size: 2rem;  /* גודל הפונט*/
+
+    font-style: italic;
+    font-weight: normal; /* משקל הפונט */
+    text-align: left; /* ממרכז את הטקסט */
+    color: black; /* צבע הטקסט */
+}
+  
+
+.description{
+    font-family: "cmunrm", sans-serif;
+    font-size: 2rem;
+    font-weight: normal; /* משקל הפונט */
+    text-align: left; /* ממרכז את הטקסט */
+    color: black; /* צבע הטקסט */
+}
+.caption-container{
+    border: 1px solid violet;
+    margin-bottom: 2rem;
+}
+
+.special-1{
+    font-family: "HIMECATOR-2", sans-serif;
+    /* font-size: 40px; */ /* גודל הפונט */
+    font-weight: normal; /* משקל הפונט */
+    text-align: left; /* ממרכז את הטקסט */
+    color: black; /* צבע הטקסט */
+  }
+
+.special-2{
+    font-family: "Aisle", sans-serif;
+    /* font-size: 40px; */ /* גודל הפונט */
+    font-weight: normal; /* משקל הפונט */
+    text-align: left; /* ממרכז את הטקסט */
+    color: black; /* צבע הטקסט */
+  }
+
+  .special-3{
+    font-family: "CircularStd", sans-serif;
+    /* font-size: 40px; */ /* גודל הפונט */
+    font-weight: normal; /* משקל הפונט */
+    text-align: left; /* ממרכז את הטקסט */
+    color: black; /* צבע הטקסט */
+  }
+  
+  .special-3M{
+    font-family: "CircularStd-M", sans-serif;
+    /* font-size: 40px; */ /* גודל הפונט */
+    font-weight: normal; /* משקל הפונט */
+    text-align: left; /* ממרכז את הטקסט */
+    color: black; /* צבע הטקסט */
+  }
+
+
+  
