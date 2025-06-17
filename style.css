@@ -38,8 +38,7 @@ html {
 
 body {
   font-family: "HIMECATOR-2", "CircularStd";
-  /* font-size: 40px; */ /* גודל הפונט */
-
+  /* font-size: 40px; */
   color: black; /* צבע הטקסט */
 }
 
@@ -51,18 +50,18 @@ main {
 
 header {
   width: 100%; /* relative to its parent */
-  border: 1px solid rgb(255, 61, 61);
+  /*border: 1px solid rgb(255, 61, 61);*/
 }
 
 h1 {
   font-size: 2.5rem;
-  border: 1px solid rgb(90, 61, 255);
+  /*border: 1px solid rgb(90, 61, 255);*/
   /* background-color: yellow; */
 }
 
 h2 {
   font-size: 3rem;
-  border: 1px solid rgb(0, 225, 255);
+  /*border: 1px solid rgb(0, 225, 255);*/
 }
 
 .title-pos-1 {
@@ -112,7 +111,7 @@ h2 {
 }
 
 .content-container {
-  border: 1px dotted green;
+  /*border: 1px dotted green;*/
   width: 100%;
   /* simulate a size  */
   /* height: 200vh; */
@@ -121,7 +120,7 @@ h2 {
 }
 
 .content {
-  border: 1px dotted blue;
+  /*border: 1px dotted blue;*/
   width: 60%;
 
   /* simulate a size  */
@@ -132,7 +131,7 @@ h2 {
 }
 
 .content-about-bio {
-  border: 1px dotted blue;
+  /*border: 1px dotted blue;*/
   width: 60%;
   /* simulate a size  */
   /* height: 100vh;  */
@@ -158,7 +157,7 @@ h2 {
 }
 
 .menu {
-  border: 2px dotted rgb(164, 52, 97);
+  /*border: 2px dotted rgb(164, 52, 97);*/
   /* display: flex;
   flex-direction: row; */
   font-family: "HIMECATOR-2", sans-serif;
@@ -194,7 +193,7 @@ h2 {
 }
 
 .contacts-container {
-  border: 3px dotted green;
+  /*border: 3px dotted green;*/
   display: flex;
   justify-content: center;
 }
@@ -224,7 +223,7 @@ img {
 
 .img-menu{
   border: 1px solid violet;
-  width: 35%;
+  width: 30%;
   margin-right: 5%;
   margin-left: auto;
 }
@@ -247,7 +246,7 @@ img {
   color: black; /* צבע הטקסט */
 }
 .caption-container {
-  border: 1px solid violet;
+  /*border: 1px solid violet;*/
   margin-bottom: 2rem;
 }
 
