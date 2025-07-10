@@ -291,11 +291,6 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
-
-  body {
-    /* background-color: rgb(0, 255, 26); */
-  }
-
   .img-menu{
     width: 70%;
     top:  100%;
