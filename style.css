@@ -48,6 +48,10 @@ main {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
 header {
   width: 100%; /* relative to its parent */
   /*border: 1px solid rgb(255, 61, 61);*/
@@ -263,7 +267,7 @@ img {
   /* font-size: 40px; */ /* גודל הפונט */
   font-weight: normal; /* משקל הפונט */
   text-align: left; /* ממרכז את הטקסט */
-  color: black; /* צבע הטקסט */
+  /*color: black; /* צבע הטקסט */
 }
 
 .special-3 {
@@ -271,7 +275,7 @@ img {
   /* font-size: 40px; */ /* גודל הפונט */
   font-weight: normal; /* משקל הפונט */
   text-align: left; /* ממרכז את הטקסט */
-  color: black; /* צבע הטקסט */
+  /*color: black; /* צבע הטקסט */
 }
 
 .special-3M {
@@ -279,5 +283,5 @@ img {
   /* font-size: 40px; */ /* גודל הפונט */
   font-weight: normal; /* משקל הפונט */
   text-align: left; /* ממרכז את הטקסט */
-  color: black; /* צבע הטקסט */
+  /*color: black; /* צבע הטקסט */
 }
