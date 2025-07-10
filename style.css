@@ -43,7 +43,7 @@ body {
 }
 
 main {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   max-width: 1750px;
   margin: 0 auto;
 }
@@ -145,7 +145,7 @@ h2 {
 }
 
 .menu-container {
-  border: 2px solid rgb(30, 0, 255);
+  /* border: 2px solid rgb(30, 0, 255); */
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -156,7 +156,7 @@ h2 {
 }
 
 .submenu-container {
-  border: 2px solid rgb(255, 238, 0);
+  /* border: 2px solid rgb(255, 238, 0); */
   margin-left: 2em ;
 }
 
@@ -226,7 +226,7 @@ img {
 }
 
 .img-menu{
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
   width: 30%;
   margin-right: 5%;
   margin-left: auto;
