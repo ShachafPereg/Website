@@ -301,14 +301,3 @@ img {
 
 }
 
-
-
-
-/* כותרות מותאמות למסך קטן */
-@media only screen and (max-width: 800px) {
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 4vw; /* גודל יחסי לרוחב המסך */
-    line-height: 1.2;
-  }
-}
-
