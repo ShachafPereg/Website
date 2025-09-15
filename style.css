@@ -300,3 +300,18 @@ img {
 
 
 }
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .menu-container {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+}
