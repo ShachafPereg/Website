@@ -296,6 +296,8 @@ img {
 
 
 
+
+
 /* ================ התאמות למובייל - להוספה בסוף הקובץ ================ */
 
 /* מסכים קטנים - טאבלט */
@@ -324,13 +326,13 @@ img {
     padding: 0 1rem; /* מוסיף ריפוד צדדי */
   }
   
-  /* כותרת ראשית */
-  .title-pos-7 {
+  /* כותרות בכל העמודים */
+  .title-pos-1, .title-pos-2, .title-pos-3, .title-pos-4, .title-pos-5, .title-pos-6, .title-pos-7 {
     margin: 1em 0.5em !important;
     text-align: center; /* ממרכז את הכותרת */
   }
   
-  h2 {
+  h1, h2 {
     font-size: 2.5rem !important; /* מקטין מעט את גודל הכותרת */
   }
   
@@ -368,7 +370,19 @@ img {
   }
   
   .content-about-bio {
-    width: 85% !important; /* מרחיב את התוכן של about/bio */
+    width: 90% !important; /* מרחיב את התוכן של about/bio - יותר רחב */
+    margin: 10px auto !important; /* מרגין קטן יותר */
+  }
+  
+  /* טקסטים בעמודים הפנימיים */
+  .description {
+    font-size: 1.8rem !important; /* גודל טוב לקריאה במובייל */
+    line-height: 1.4 !important; /* מרווח בין שורות נוח */
+    margin-bottom: 1rem !important; /* מרחק בין פסקאות */
+  }
+  
+  .work-title {
+    font-size: 1.9rem !important; /* כותרת עבודה בולטת יותר */
   }
   
   /* כפתור חזרה */
@@ -459,4 +473,3 @@ img {
     max-width: 200px !important;
   }
 }
-
