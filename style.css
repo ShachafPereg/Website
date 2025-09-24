@@ -306,19 +306,56 @@ img {
     margin-right: 1em !important;
   }
 
+    /* כותרת AND-I שלא תיחתך */
+  h1.title-pos-1 {
+    margin-left: 2em !important;
+    margin-top: 4em !important;
+    font-size: 1.5rem !important;
+  }
+
+    /* כותרת A-LIVING שלא תיחתך */
+  h1.title-pos-2 {
+    margin-left: 2em !important;
+    margin-top: 3em !important;
+    font-size: 1.5rem !important;
+  }
+
+    /* כותרת THE-GAME שלא תיחתך */
+  h1.title-pos-3 {
+    margin-left: 1em !important;
+    margin-top: 6em !important;
+    font-size: 1.5rem !important;
+  }
+
+    /* כותרת THE-GAME שלא תיחתך */
+  h1.title-pos-4 {
+    margin-left: 6em !important;
+    margin-top: 3em !important;
+    font-size: 1.5rem !important;
+  }
+
+    /* כותרת about שלא תיחתך */
+  h1.title-pos-5 {
+    margin-left: 4em !important;
+    margin-top: 6em !important;
+    font-size: 1.5rem !important;
+  }
+
   /* כותרת ביוגרפיה שלא תיחתך */
   h1.title-pos-6 {
-    margin-left: 1.5em !important;
-    margin-top: 2em !important;
-    font-size: 2rem !important;
+    margin-left: 6em !important;
+    margin-top: 4em !important;
+    font-size: 1.5rem !important;
   }
 
   /* תמונה בעמוד הבית – קטנה לשליש בערך */
   .img-menu img {
-    width: 30% !important;
+    width: 45% !important;
     max-width: 300px;
     height: auto !important;
     margin: 2em auto !important;
+    margin-top: 7em !important;
+    margin-left: 20em !important;
     display: block;
     position: relative !important;
     top: 0 !important;
