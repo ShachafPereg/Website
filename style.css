@@ -291,59 +291,32 @@ img {
 }
 
 
-/* ======= MOBILE RESPONSIVE STYLES ======= */
+
+
+/* =========================================================
+   התאמות מובייל
+   ========================================================= */
 @media (max-width: 768px) {
 
-  /* Body */
-  body {
-    font-size: 14px;
-    padding: 5px;
-  }
-
-  /* Header / Main Page Titles */
-  h1.title-pos-1,
-  h1.title-pos-2,
-  h1.title-pos-3,
-  h1.title-pos-4,
-  h1.title-pos-5,
-  h1.title-pos-6,
-  h2.title-pos-7 {
+  /* כותרות – פרופורציות למובייל */
+  h1, h2 {
     font-size: 1.8rem !important;
-    margin: 1.5em 1em !important;
-    text-align: left;
-  }
-
-  /* Special spans in titles */
-  span.special-2,
-  span.special-3,
-  span.special-3M {
-    font-size: 1.5rem !important;
-  }
-
-  /* Menu / Navigation */
-  .menu-container {
+    line-height: 1.4em;
     margin-left: 1em !important;
-    flex-direction: column;
-    align-items: flex-start;
+    margin-right: 1em !important;
   }
 
-  .menu {
-    font-size: 1.2rem !important;
-    margin: 5px 0 !important;
+  /* כותרת ביוגרפיה שלא תיחתך */
+  h1.title-pos-6 {
+    margin-left: 1.5em !important;
+    margin-top: 2em !important;
+    font-size: 2rem !important;
   }
 
-  /* Correct About button position (align left) */
-  .menu-container .menu:nth-child(1),
-  .menu-container .menu:nth-child(2),
-  .menu-container .menu:nth-child(3),
-  .menu-container .menu:nth-child(4) {
-    text-align: left !important;
-  }
-
-  /* Main page image */
+  /* תמונה בעמוד הבית – קטנה לשליש בערך */
   .img-menu img {
-    width: 80% !important;
-    max-width: 350px;
+    width: 30% !important;
+    max-width: 300px;
     height: auto !important;
     margin: 2em auto !important;
     display: block;
@@ -352,57 +325,52 @@ img {
     right: 0 !important;
   }
 
-  /* Work / Project Pages */
-  .work-title {
+  /* מיקום הלחצנים בתפריט בעמוד הבית */
+  .menu-container {
+    margin-left: 2rem !important; /* שיהיה צמוד לשמאל */
     font-size: 1.5rem !important;
-    line-height: 1.3em;
   }
 
-  .description {
-    font-size: 1rem !important;
-    line-height: 1.4em;
+  /* "About" – שיישר כמו השאר */
+  .menu:first-child {
+    align-self: flex-start !important;
   }
 
-  .content img {
-    width: 100% !important;
-    height: auto !important;
-    margin-bottom: 1.5em !important;
-  }
-
-  .caption-container {
-    margin-bottom: 1em !important;
-  }
-
-  /* About / Contact Pages */
+  /* תוכן בעמודי טקסט (About, Bio, Contact) */
   .content-about-bio {
-    width: 95% !important;
-    margin: 1em auto !important;
+    width: 40% !important;
+    margin: 3em auto !important;
+    text-align: center;
   }
 
   .content-about-bio .description {
+    font-size: 1.1rem !important;
+    line-height: 1.6em;
+    text-align: center;
+  }
+
+  /* כפתור חזרה – תמיד גלוי */
+  .back-button {
+    position: fixed !important;
+    top: 1em !important;
+    left: 1em !important;
+    z-index: 1000 !important;
+    font-size: 2rem !important;
+  }
+
+  /* התאמות לטקסטים בעמודי עבודות */
+  .work-title {
+    font-size: 1.4rem !important;
+  }
+  .description {
     font-size: 1rem !important;
     line-height: 1.5em;
   }
 
-  .contacts-container {
-    justify-content: flex-start !important;
-  }
-
-  .contacts p {
-    font-size: 1rem !important;
-    margin-bottom: 0.5em;
-  }
-
-  /* Back Button */
-  .back-button {
-    font-size: 2rem !important;
-    top: 0.2em !important;
-    left: 0.5em !important;
-  }
-
-  /* Footer if exists */
-  footer {
-    font-size: 0.9em;
-    text-align: center;
+  /* תמונות בעבודות – לא גדולות מדי */
+  .content img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 2rem !important;
   }
 }
