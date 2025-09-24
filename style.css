@@ -291,3 +291,81 @@ img {
 }
 
 
+
+
+
+
+
+/* ======= MOBILE RESPONSIVE STYLES ======= */
+@media (max-width: 768px) {
+
+  /* ---- Body ---- */
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* ---- Header / Navigation ---- */
+  header h1 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  /* ---- Main page hero image ---- */
+  .hero-image, .main-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ---- Projects / Work pages ---- */
+  .project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .project-description {
+    font-size: 0.95em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  /* ---- About page ---- */
+  .about-text {
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+  }
+
+  /* ---- Contact page ---- */
+  .contact-text {
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    font-size: 0.95em;
+    margin-bottom: 10px;
+  }
+
+  /* ---- Footer ---- */
+  footer {
+    font-size: 0.9em;
+    text-align: center;
+  }
+}
