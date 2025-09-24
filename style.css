@@ -291,8 +291,6 @@ img {
 }
 
 
-
-
 /* ======= MOBILE RESPONSIVE STYLES ======= */
 @media (max-width: 768px) {
 
@@ -302,22 +300,31 @@ img {
     padding: 5px;
   }
 
-  /* Header / Main Page */
+  /* Header / Main Page Titles */
+  h1.title-pos-1,
+  h1.title-pos-2,
+  h1.title-pos-3,
+  h1.title-pos-4,
+  h1.title-pos-5,
+  h1.title-pos-6,
   h2.title-pos-7 {
-    font-size: 2rem !important;
-    text-align: center;
-    margin: 2em 0 !important;
+    font-size: 1.8rem !important;
+    margin: 1.5em 1em !important;
+    text-align: left;
   }
 
-  span.special-2 {
-    font-size: 1.8rem !important;
+  /* Special spans in titles */
+  span.special-2,
+  span.special-3,
+  span.special-3M {
+    font-size: 1.5rem !important;
   }
 
   /* Menu / Navigation */
   .menu-container {
     margin-left: 1em !important;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .menu {
@@ -325,9 +332,18 @@ img {
     margin: 5px 0 !important;
   }
 
+  /* Correct About button position (align left) */
+  .menu-container .menu:nth-child(1),
+  .menu-container .menu:nth-child(2),
+  .menu-container .menu:nth-child(3),
+  .menu-container .menu:nth-child(4) {
+    text-align: left !important;
+  }
+
   /* Main page image */
   .img-menu img {
-    width: 90% !important;
+    width: 80% !important;
+    max-width: 350px;
     height: auto !important;
     margin: 2em auto !important;
     display: block;
@@ -353,6 +369,10 @@ img {
     margin-bottom: 1.5em !important;
   }
 
+  .caption-container {
+    margin-bottom: 1em !important;
+  }
+
   /* About / Contact Pages */
   .content-about-bio {
     width: 95% !important;
@@ -364,10 +384,25 @@ img {
     line-height: 1.5em;
   }
 
+  .contacts-container {
+    justify-content: flex-start !important;
+  }
+
+  .contacts p {
+    font-size: 1rem !important;
+    margin-bottom: 0.5em;
+  }
+
   /* Back Button */
   .back-button {
     font-size: 2rem !important;
     top: 0.2em !important;
     left: 0.5em !important;
+  }
+
+  /* Footer if exists */
+  footer {
+    font-size: 0.9em;
+    text-align: center;
   }
 }
