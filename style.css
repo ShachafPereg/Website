@@ -300,7 +300,7 @@ img {
 
   /* כותרות – פרופורציות למובייל */
   h1, h2 {
-    font-size: 1.8rem !important;
+    font-size: 1.6rem !important;
     line-height: 1.4em;
     margin-left: 1em !important;
     margin-right: 1em !important;
@@ -308,44 +308,44 @@ img {
 
     /* כותרת AND-I שלא תיחתך */
   h1.title-pos-1 {
-    margin-left: 2em !important;
+    margin-left: 1.5em !important;
     margin-top: 4em !important;
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
 
     /* כותרת A-LIVING שלא תיחתך */
   h1.title-pos-2 {
     margin-left: 2em !important;
     margin-top: 3em !important;
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
 
     /* כותרת THE-GAME שלא תיחתך */
   h1.title-pos-3 {
     margin-left: 1em !important;
     margin-top: 6em !important;
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
 
     /* כותרת THE-GAME שלא תיחתך */
   h1.title-pos-4 {
     margin-left: 6em !important;
     margin-top: 3em !important;
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
 
     /* כותרת about שלא תיחתך */
   h1.title-pos-5 {
     margin-left: 4em !important;
     margin-top: 6em !important;
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
 
   /* כותרת ביוגרפיה שלא תיחתך */
   h1.title-pos-6 {
     margin-left: 6em !important;
     margin-top: 4em !important;
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
 
   /* תמונה בעמוד הבית – קטנה לשליש בערך */
@@ -355,7 +355,7 @@ img {
     height: auto !important;
     margin: 2em auto !important;
     margin-top: 7em !important;
-    margin-left: 20em !important;
+    margin-left: 28em !important;
     display: block;
     position: relative !important;
     top: 0 !important;
@@ -365,7 +365,7 @@ img {
   /* מיקום הלחצנים בתפריט בעמוד הבית */
   .menu-container {
     margin-left: 2rem !important; /* שיהיה צמוד לשמאל */
-    font-size: 1.5rem !important;
+    font-size: 1.12rem !important;
   }
 
   /* "About" – שיישר כמו השאר */
@@ -375,21 +375,21 @@ img {
 
   /* תוכן בעמודי טקסט (About, Bio, Contact) */
   .content-about-bio {
-    width: 40% !important;
+    width: 68% !important;
     margin: 3em auto !important;
     text-align: center;
   }
 
   .content-about-bio .description {
-    font-size: 1.1rem !important;
-    line-height: 1.6em;
-    text-align: center;
+    font-size: 1.2rem !important;
+    line-height: 1.5em;
+    text-align: justify;
   }
 
   /* כפתור חזרה – תמיד גלוי */
   .back-button {
     position: fixed !important;
-    top: 1em !important;
+    top: 7em !important;
     left: 1em !important;
     z-index: 1000 !important;
     font-size: 2rem !important;
