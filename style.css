@@ -388,8 +388,8 @@ img {
 
   /* כפתור חזרה – תמיד גלוי */
   .back-button {
-    position: fixed !important;
-    top: 7em !important;
+    /* position: fixed !important; */
+    top: -0.3em !important;
     left: 1em !important;
     z-index: 1000 !important;
     font-size: 2rem !important;
