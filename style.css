@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* טוען את הפונט מהמחשב */
+/* Load font from local machine */
 @font-face {
   font-family: "HIMECATOR-2";
   src: url("./fonts/HIMECATOR-Regular-2.otf") format("opentype");
@@ -39,7 +39,7 @@ html {
 body {
   font-family: "HIMECATOR-2", "CircularStd";
   /* font-size: 40px; */
-  color: black; /* צבע הטקסט */
+  color: black; /* text color */
 }
 
 main {
@@ -54,18 +54,18 @@ a {
 }
 header {
   width: 100%; /* relative to its parent */
-  /*border: 1px solid rgb(255, 61, 61);*/
+  /* border: 1px solid rgb(255, 61, 61); */
 }
 
 h1 {
   font-size: 2.5rem;
-  /*border: 1px solid rgb(90, 61, 255);*/
+  /* border: 1px solid rgb(90, 61, 255); */
   /* background-color: yellow; */
 }
 
 h2 {
   font-size: 3rem;
-  /*border: 1px solid rgb(0, 225, 255);*/
+  /* border: 1px solid rgb(0, 225, 255); */
 }
 
 .title-pos-1 {
@@ -115,30 +115,30 @@ h2 {
 }
 
 .content-container {
-  /*border: 1px dotted green;*/
+  /* border: 1px dotted green; */
   width: 100%;
-  /* simulate a size  */
+  /* simulate a size */
   /* height: 200vh; */
   margin: 0px auto;
   position: relative;
 }
 
 .content {
-  /*border: 1px dotted blue;*/
+  /* border: 1px dotted blue; */
   width: 60%;
 
-  /* simulate a size  */
-  /* height: 100vh;  */
+  /* simulate a size */
+  /* height: 100vh; */
 
   margin: 10px auto;
   position: relative;
 }
 
 .content-about-bio {
-  /*border: 1px dotted blue;*/
+  /* border: 1px dotted blue; */
   width: 50%;
-  /* simulate a size  */
-  /* height: 100vh;  */
+  /* simulate a size */
+  /* height: 100vh; */
 
   margin: 30px auto;
   position: relative;
@@ -162,7 +162,7 @@ h2 {
 }
 
 .menu {
-  /*border: 2px dotted rgb(164, 52, 97);*/
+  /* border: 2px dotted rgb(164, 52, 97); */
   /* display: flex;
   flex-direction: row; */
   font-family: "HIMECATOR-2", sans-serif;
@@ -176,7 +176,7 @@ h2 {
   /* width: 30px;
   top: 0.5em;
   left: 1.5em;; */
-/* border: none;
+  /* border: none;
   background-color: transparent;
   text-decoration: none; */
 /* }
@@ -184,11 +184,11 @@ h2 {
 /* .menu-sub-button{
   font-family: "HIMECATOR-2", sans-serif;
   font-size: 1rem; */
-/* position: absolute; /* relative to its closest relative parent */
-/* width: 30px;
+  /* position: absolute; relative to its closest relative parent */
+  /* width: 30px;
   top: 0.5em;
   left: 1.5em;; */
-/* border: none;
+  /* border: none;
   background-color: transparent;
   text-decoration: none; */
 /* } */
@@ -198,12 +198,12 @@ h2 {
 }
 
 .contacts-container {
-  /*border: 3px dotted green;*/
+  /* border: 3px dotted green; */
   display: flex;
   justify-content: center;
 }
 .contacts {
-  /*border: 2px dotted rgb(44, 115, 173);*/
+  /* border: 2px dotted rgb(44, 115, 173); */
   display: flex;
   flex-direction: column;
 }
@@ -221,7 +221,7 @@ h2 {
 }
 
 img {
-  /*border: 2px dotted rgb(44, 115, 173);*/
+  /* border: 2px dotted rgb(44, 115, 173); */
   width: 100%;
   margin-bottom: 8rem;
 }
@@ -237,68 +237,68 @@ img {
 }
 .work-title {
   font-family: "cmunrm", sans-serif;
-  font-size: 2rem; /* גודל הפונט*/
+  font-size: 2rem; /* font size */
 
   font-style: italic;
-  font-weight: normal; /* משקל הפונט */
-  text-align: left; /* ממרכז את הטקסט */
-  color: black; /* צבע הטקסט */
+  font-weight: normal; /* font weight */
+  text-align: left; /* align text left */
+  color: black; /* text color */
 }
 
 .description {
   font-family: "cmunrm", sans-serif;
   font-size: 2rem;
-  font-weight: normal; /* משקל הפונט */
-  /* text-align: left;  */
-  /* ממרכז את הטקסט */
-  color: black; /* צבע הטקסט */
+  font-weight: normal; /* font weight */
+  /* text-align: left; */
+  /* center text */
+  color: black; /* text color */
 }
 .caption-container {
-  /*border: 1px solid violet;*/
+  /* border: 1px solid violet; */
   margin-bottom: 2rem;
 }
 
 .special-1 {
   font-family: "HIMECATOR-2", sans-serif;
-  /* font-size: 40px; */ /* גודל הפונט */
-  font-weight: normal; /* משקל הפונט */
-  text-align: left; /* ממרכז את הטקסט */
-  color: black; /* צבע הטקסט */
+  /* font-size: 40px; */ /* font size */
+  font-weight: normal; /* font weight */
+  text-align: left; /* align text left */
+  color: black; /* text color */
 }
 
 .special-2 {
   font-family: "Aisle", sans-serif;
-  /* font-size: 40px; */ /* גודל הפונט */
-  font-weight: normal; /* משקל הפונט */
-  text-align: left; /* ממרכז את הטקסט */
-  /*color: black; /* צבע הטקסט */
+  /* font-size: 40px; */ /* font size */
+  font-weight: normal; /* font weight */
+  text-align: left; /* align text left */
+  /* color: black; */
 }
 
 .special-3 {
   font-family: "CircularStd", sans-serif;
-  /* font-size: 40px; */ /* גודל הפונט */
-  font-weight: normal; /* משקל הפונט */
-  text-align: left; /* ממרכז את הטקסט */
-  /*color: black; /* צבע הטקסט */
+  /* font-size: 40px; */ /* font size */
+  font-weight: normal; /* font weight */
+  text-align: left; /* align text left */
+  /* color: black; */
 }
 
 .special-3M {
   font-family: "CircularStd-M", sans-serif;
-  /* font-size: 40px; */ /* גודל הפונט */
-  font-weight: normal; /* משקל הפונט */
-  text-align: left; /* ממרכז את הטקסט */
-  /*color: black; /* צבע הטקסט */
+  /* font-size: 40px; */ /* font size */
+  font-weight: normal; /* font weight */
+  text-align: left; /* align text left */
+  /* color: black; */
 }
 
 
 
 
 /* =========================================================
-   התאמות מובייל
+   Mobile adjustments
    ========================================================= */
 @media (max-width: 768px) {
 
-  /* כותרות – פרופורציות למובייל */
+  /* Headings – proportional for mobile */
   h1, h2 {
     font-size: 1.6rem !important;
     line-height: 1.4em;
@@ -306,49 +306,49 @@ img {
     margin-right: 1em !important;
   }
 
-    /* כותרת AND-I שלא תיחתך */
+  /* Title AND-I should not be cut off */
   h1.title-pos-1 {
     margin-left: 1.5em !important;
     margin-top: 4em !important;
     font-size: 1.4rem !important;
   }
 
-    /* כותרת A-LIVING שלא תיחתך */
+  /* Title A-LIVING should not be cut off */
   h1.title-pos-2 {
     margin-left: 2em !important;
     margin-top: 3em !important;
     font-size: 1.4rem !important;
   }
 
-    /* כותרת THE-GAME שלא תיחתך */
+  /* Title THE-GAME should not be cut off */
   h1.title-pos-3 {
     margin-left: 1em !important;
     margin-top: 6em !important;
     font-size: 1.4rem !important;
   }
 
-    /* כותרת THE-GAME שלא תיחתך */
+  /* Title THE-GAME should not be cut off */
   h1.title-pos-4 {
     margin-left: 6em !important;
     margin-top: 3em !important;
     font-size: 1.4rem !important;
   }
 
-    /* כותרת about שלא תיחתך */
+  /* Title About should not be cut off */
   h1.title-pos-5 {
     margin-left: 4em !important;
     margin-top: 6em !important;
     font-size: 1.4rem !important;
   }
 
-  /* כותרת ביוגרפיה שלא תיחתך */
+  /* Title Biography should not be cut off */
   h1.title-pos-6 {
     margin-left: 6em !important;
     margin-top: 4em !important;
     font-size: 1.4rem !important;
   }
 
-  /* תמונה בעמוד הבית – קטנה לשליש בערך */
+  /* Homepage image – shrink to about one-third */
   .img-menu img {
     width: 45% !important;
     max-width: 300px;
@@ -362,18 +362,18 @@ img {
     right: 0 !important;
   }
 
-  /* מיקום הלחצנים בתפריט בעמוד הבית */
+  /* Position menu buttons on homepage */
   .menu-container {
-    margin-left: 2rem !important; /* שיהיה צמוד לשמאל */
+    margin-left: 2rem !important; /* align to the left */
     font-size: 1.12rem !important;
   }
 
-  /* "About" – שיישר כמו השאר */
+  /* "About" – align like the others */
   .menu:first-child {
     align-self: flex-start !important;
   }
 
-  /* תוכן בעמודי טקסט (About, Bio, Contact) */
+  /* Content in text pages (About, Bio, Contact) */
   .content-about-bio {
     width: 68% !important;
     margin: 3em auto !important;
@@ -386,7 +386,7 @@ img {
     text-align: justify;
   }
 
-  /* כפתור חזרה – תמיד גלוי */
+  /* Back button – always visible */
   .back-button {
     /* position: fixed !important; */
     top: -0.3em !important;
@@ -395,7 +395,7 @@ img {
     font-size: 2rem !important;
   }
 
-  /* התאמות לטקסטים בעמודי עבודות */
+  /* Text adjustments for work pages */
   .work-title {
     font-size: 1.4rem !important;
   }
@@ -404,7 +404,7 @@ img {
     line-height: 1.5em;
   }
 
-  /* תמונות בעבודות – לא גדולות מדי */
+  /* Images in works – not too large */
   .content img {
     width: 100% !important;
     height: auto !important;
