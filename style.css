@@ -362,6 +362,22 @@ img {
     right: 0 !important;
   }
 
+  .img-menu,
+.img-menu img {
+  pointer-events: none !important;  /* clicks pass through image and its container */
+  z-index: 0 !important;            /* place behind interactive elements */
+}
+ 
+/* Ensure the menu sits above the image */
+.menu-container,
+.menu-container .menu,
+.menu a {
+  position: relative !important;
+  z-index: 9999 !important;         /* menu above image */
+}
+
+
+
   /* Position menu buttons on homepage */
   .menu-container {
     margin-left: 2rem !important; /* align to the left */
