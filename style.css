@@ -363,14 +363,14 @@ img {
 }
 
 .img-menu img {
-  width: 45% !important;            /* keep similar size as before */
-  max-width: 550px !important;
+  width: 55% !important;            /* keep similar size as before */
+  max-width: 700px !important;
   height: auto !important;
   display: block !important;
 
   margin: 2em auto !important;      /* center horizontally */
-  margin-top: 3em !important;       /* adjust vertical space */
-  
+  margin-top: 13em !important;       /* adjust vertical space */
+  margin-right: 4em !important;
   position: relative !important;
   z-index: 0 !important;
   pointer-events: none !important;  
