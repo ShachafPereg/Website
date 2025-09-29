@@ -362,19 +362,56 @@ img {
     right: 0 !important;
   }
 
-  .img-menu,
-.img-menu img {
-  pointer-events: none !important;  /* clicks pass through image and its container */
-  z-index: 0 !important;            /* place behind interactive elements */
+ /* =========================================================
+   RECOMMENDED FIX: resize & reposition image + ensure menu clickable
+   ========================================================= */
+
+/* ======= Homepage image: reset absolute positioning and size for mobile ======= */
+/* English comments inside as requested. */
+.img-menu {
+  /* reset any absolute placement set in desktop rules */
+  position: relative !important;    /* remove absolute stacking that covers menu */
+  top: auto !important;
+  right: auto !important;
+  left: auto !important;
+
+  width: auto !important;           /* allow child img control width */
+  margin: 0 auto !important;        /* center the container */
+  padding: 0 !important;
+  z-index: 0 !important;            /* keep behind menu */
+  pointer-events: none !important;  /* ensure container doesn't capture clicks */
 }
- 
-/* Ensure the menu sits above the image */
-.menu-container,
-.menu-container .menu,
+
+.img-menu img {
+  width: 45% !important;            /* about one-third size for mobile */
+  max-width: 550px !important;
+  height: auto !important;
+  display: block !important;
+  margin-top: -5em  !important;
+  margin-left: 21em !important;
+  position: relative !important;
+  z-index: 0 !important;
+  pointer-events: none !important;  /* image won't block clicks */
+}
+
+/* ======= Ensure menu is above image and clickable ======= */
+.menu-container {
+  position: relative !important;
+  z-index: 9999 !important;        /* menu above image area */
+  margin-left: 1rem !important;    /* align left more reliably */
+}
+
+/* make the anchors explicitly on top */
 .menu a {
   position: relative !important;
-  z-index: 9999 !important;         /* menu above image */
+  z-index: 10000 !important;
 }
+
+/* Optional debug helpers: uncomment to show outlines to debug overlap */
+/*
+.img-menu { outline: 2px dashed rgba(255,0,0,0.6); }
+.menu-container { outline: 2px dashed rgba(0,0,255,0.6); }
+*/
 
 
 
