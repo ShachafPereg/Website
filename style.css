@@ -349,70 +349,32 @@ img {
   }
 
   /* Homepage image – shrink to about one-third */
-  .img-menu img {
-    width: 45% !important;
-    max-width: 300px;
-    height: auto !important;
-    margin: 2em auto !important;
-    margin-top: 7em !important;
-    margin-left: 28em !important;
-    display: block;
-    position: relative !important;
-    top: 0 !important;
-    right: 0 !important;
-  }
-
- /* =========================================================
-   RECOMMENDED FIX: resize & reposition image + ensure menu clickable
-   ========================================================= */
-
-/* ======= Homepage image: reset absolute positioning and size for mobile ======= */
-/* English comments inside as requested. */
-.img-menu {
-  /* reset any absolute placement set in desktop rules */
-  position: relative !important;    /* remove absolute stacking that covers menu */
+  .img-menu {
+  position: relative !important;    
   top: auto !important;
   right: auto !important;
   left: auto !important;
 
-  width: auto !important;           /* allow child img control width */
-  margin: 0 auto !important;        /* center the container */
+  width: auto !important;           
+  margin: 0 auto !important;        
   padding: 0 !important;
-  z-index: 0 !important;            /* keep behind menu */
-  pointer-events: none !important;  /* ensure container doesn't capture clicks */
+  z-index: 0 !important;            
+  pointer-events: none !important;  
 }
 
 .img-menu img {
-  width: 45% !important;            /* about one-third size for mobile */
+  width: 45% !important;            /* keep similar size as before */
   max-width: 550px !important;
   height: auto !important;
   display: block !important;
-  margin-top: -5em  !important;
-  margin-left: 21em !important;
+
+  margin: 2em auto !important;      /* center horizontally */
+  margin-top: 3em !important;       /* adjust vertical space */
+  
   position: relative !important;
   z-index: 0 !important;
-  pointer-events: none !important;  /* image won't block clicks */
+  pointer-events: none !important;  
 }
-
-/* ======= Ensure menu is above image and clickable ======= */
-.menu-container {
-  position: relative !important;
-  z-index: 9999 !important;        /* menu above image area */
-  margin-left: 1rem !important;    /* align left more reliably */
-}
-
-/* make the anchors explicitly on top */
-.menu a {
-  position: relative !important;
-  z-index: 10000 !important;
-}
-
-/* Optional debug helpers: uncomment to show outlines to debug overlap */
-/*
-.img-menu { outline: 2px dashed rgba(255,0,0,0.6); }
-.menu-container { outline: 2px dashed rgba(0,0,255,0.6); }
-*/
-
 
 
   /* Position menu buttons on homepage */
