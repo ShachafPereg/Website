@@ -292,7 +292,6 @@ img {
 
 
 
-
 /* =========================================================
    Mobile adjustments
    ========================================================= */
@@ -369,8 +368,8 @@ img {
   display: block !important;
 
   margin: 2em auto !important;      /* center horizontally */
-  margin-top: 13em !important;       /* adjust vertical space */
-  margin-right: 4em !important;
+  margin-top: 14em !important;       /* adjust vertical space */
+  margin-right: 3em !important;
   position: relative !important;
   z-index: 0 !important;
   pointer-events: none !important;  
