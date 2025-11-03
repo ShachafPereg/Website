@@ -7,6 +7,7 @@ RewriteRule ^(.*)$ https://shachafpereg.com/$1 [L,R=301]
 RewriteCond %{THE_REQUEST} /index\.html
 RewriteRule ^index\.html$ https://shachafpereg.com/ [L,R=301]
 
+
 # Redirect כל קובץ .html ל-URL נקי
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
