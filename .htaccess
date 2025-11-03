@@ -1,0 +1,8 @@
+# Redirect מ-www לבלי www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.shachafpereg\.com [NC]
+RewriteRule ^(.*)$ https://shachafpereg.com/$1 [L,R=301]
+
+# Redirect מ-index.html ל-/
+RewriteCond %{THE_REQUEST} /index\.html
+RewriteRule ^index\.html$ https://shachafpereg.com/ [L,R=301]
