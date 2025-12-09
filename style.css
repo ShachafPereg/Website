@@ -161,6 +161,8 @@ h2 {
   margin-left: 2em ;
 }
 
+
+
 .menu {
   /* border: 2px dotted rgb(164, 52, 97); */
   /* display: flex;
@@ -170,28 +172,7 @@ h2 {
   /* width: 80%; */
 }
 
-/* .menu-button{
-  font-family: "CircularStd-M", sans-serif;
-  font-size: 1rem;
-  /* width: 30px;
-  top: 0.5em;
-  left: 1.5em;; */
-  /* border: none;
-  background-color: transparent;
-  text-decoration: none; */
-/* }
 
-/* .menu-sub-button{
-  font-family: "HIMECATOR-2", sans-serif;
-  font-size: 1rem; */
-  /* position: absolute; relative to its closest relative parent */
-  /* width: 30px;
-  top: 0.5em;
-  left: 1.5em;; */
-  /* border: none;
-  background-color: transparent;
-  text-decoration: none; */
-/* } */
 
 .text-center {
   text-align: center;
@@ -252,6 +233,7 @@ img {
   /* text-align: left; */
   /* center text */
   color: black; /* text color */
+  text-align: justify;
 }
 .caption-container {
   /* border: 1px solid violet; */
@@ -399,14 +381,14 @@ img {
     line-height: 1.5em;
     text-align: justify;
   }
-
+ 
   /* Back button – always visible */
   .back-button {
     /* position: fixed !important; */
     top: -0.3em !important;
-    left: 1em !important;
+    left: 0.7em !important;
     z-index: 1000 !important;
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
 
   /* Text adjustments for work pages */
@@ -424,4 +406,17 @@ img {
     height: auto !important;
     margin-bottom: 2rem !important;
   }
+
+  .content {
+    width: 80% !important; 
+    height: auto !important;        /* מבטיח גובה אוטומטי לפי התוכן */
+    position: relative !important; 
+  }
+
+  .content-container {
+    width: 100% !important; 
+    height: auto !important;
+    position: relative !important; 
+}
+
 }
