@@ -214,8 +214,6 @@ h2 {
 }
 
 
-
-
 .works-toggle {
   background: none;
   border: none;
@@ -267,13 +265,14 @@ img {
 
 .img-menu{
   /* border: 1px solid violet; */
-  position:absolute;
+  position: fixed;
   width: 450px;
   margin-right: 5%;
   margin-left: auto;
-  top:  65%;
+  top:  45%;
   right: 0%;
 }
+
 .work-title {
   font-family: "cmunrm", sans-serif;
   font-size: 2rem; /* font size */
@@ -389,17 +388,21 @@ img {
 
   /* Homepage image – shrink to about one-third */
   .img-menu {
-  position: relative !important;    
-  top: auto !important;
-  right: auto !important;
-  left: auto !important;
+  position: fixed !important;
+  top: 68% !important;
+  right: 0% !important;
 
-  width: auto !important;           
-  margin: 0 auto !important;        
-  padding: 0 !important;
-  z-index: 0 !important;            
-  pointer-events: none !important;  
+  width: 83% !important;
+  max-width: 380px !important;
+
+  margin: 0 !important;
+  transform: translateY(-50%) !important;
+
+  z-index: 0 !important;
+  pointer-events: none !important;
 }
+
+
 
 .img-menu img {
   width: 55% !important;            /* keep similar size as before */
