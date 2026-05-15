@@ -23,36 +23,48 @@
         <div class="menu-container">
             <div class="menu"><a href="about.html"><span class="special-3">A</span><span
                         class="special-2">bo</span></span><span class="special-3">u</span>t</a></div>
-            <div class="menu">
-                <a href="#">W<span class="special-2">o</span><span class="special-3">rk</span><span
-               class="special-2">s</span></a>
-                <div class="submenu-container">
-                    <div class="menu"> <a href="Conditional-Granting.html">C<span class="special-2">ondi</span>t<span class="special-2">I</span>o<span
+            <div class="menu works-menu">
+                <a href="#" class="menu-toggle works-toggle">
+                    W<span class="special-2">o</span><span class="special-3">rk</span><span class="special-2">s</span>
+                </a>
+
+            <div class="submenu-container works-submenu">
+                    <div class="menu" style="--i:0">
+                            <a href="Conditional-Granting.html">C<span class="special-2">ondi</span>t<span class="special-2">I</span>o<span
                                 class="special-2">nal </span>G<span class="special-2">ran</span>t<span
                                 class="special-2">In</span>g</a> </div>
-                    <div class="menu"> <a href="TOO-GOOD-GREAT-CARE.html">T<span class="special-2">oo </span>G<span
+                    <div class="menu"style="--i:1"> 
+                            <a href="TOO-GOOD-GREAT-CARE.html">T<span class="special-2">oo </span>G<span
                                 class="special-2">ooD</span> & G<span class="special-2"></span>REAT<span 
                                 class="special-2"> c</span>ARE</span></a> </div>
-                    <div class="menu"> <a href="Inaccessible-Infrastructure.html">I<span class="special-2">nacc</span>ess<span
+                    <div class="menu" style="--i:2"> 
+                            <a href="Inaccessible-Infrastructure.html">I<span class="special-2">nacc</span>ess<span
                                 class="special-2">m</span>bl<span class="special-2">E </span>I<span
                                 class="special-2">n</span>fr<span class="special-2">a</span>str<span
                                 class="special-2">mc</span>tur<span class="special-2">e</span></a> </div>
-                    <div class="menu"> <a href="AND-I.html">AND I LANG<span class="special-2">ui</span>S<span
+                    <div class="menu" style="--i:3"> 
+                        <a href="AND-I.html">AND I LANG<span class="special-2">ui</span>S<span
                                 class="special-2">h</span>ED AT THE B<span class="special-2">o</span>TT<span
                                 class="special-2">o</span>M F<span class="special-2">o</span>R PRET<span
                                 class="special-2">T</span>Y M<span class="special-2">u</span>CH M<span
                                 class="special-2">o</span>ST <span class="special-2">o</span>F MY L<span
                                 class="special-2">i</span>FE</a> </div>
-                    <div class="menu"> <a href="Better-Tongue.html">Be<span class="special-2">tt</span>er N<span
+                    <div class="menu" style="--i:4"> 
+                        <a href="Better-Tongue.html">Be<span class="special-2">tt</span>er N<span
                                 class="special-2">o</span>t to T<span class="special-2">e</span>ll You N<span
                                 class="special-2">o</span>W & Ton<span class="special-2">g</span>u<span
                                 class="special-2">e</span> Twi<span class="special-2">s</span>ter<span
                                 class="special-2">s</a></div>
-                    <div class="menu"> <a href="A-LIVING-EXAMPLE.html">A LIVING EXAMPLE</div>
-                    <div class="menu"> <a href="THE-GAME.html">THE G<span class="special-2">A</span>ME</div>
-                    <div class="menu"> <a href="Matrix.html">M<span class="special-2">atri</span>x</div>
-                    <div class="menu"> <a href="PROSTRATE!.html">PROSTRATE<span class="special-2">!</span></div>
-                    <div class="menu"> <a href="AMEN-A-MEN-MEN.html">AMEN, A MEN, <span class="special-2">M</span>EN
+                    <div class="menu" style="--i:5"> 
+                        <a href="A-LIVING-EXAMPLE.html">A LIVING EXAMPLE</a></div>
+                    <div class="menu" style="--i:6"> 
+                        <a href="THE-GAME.html">THE G<span class="special-2">A</span>ME</div>
+                    <div class="menu" style="--i:7"> 
+                        <a href="Matrix.html">M<span class="special-2">atri</span>x</div>
+                    <div class="menu" style="--i:8"> 
+                        <a href="PROSTRATE!.html">PROSTRATE<span class="special-2">!</span></div>
+                    <div class="menu" style="--i:9"> 
+                        <a href="AMEN-A-MEN-MEN.html">AMEN, A MEN, <span class="special-2">M</span>EN
                     </div>
                     <!-- <div class="menu"> <a href="#">link</div> -->
                 </div>
@@ -72,7 +84,49 @@
 
 
     </main>
-    <script src="" async defer></script>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const menus = document.querySelectorAll(".menu");
+
+    let openMenu = null;
+
+    menus.forEach(menu => {
+        const toggle = menu.querySelector(".menu-toggle");
+        const submenu = menu.querySelector(".submenu-container");
+
+        if (!toggle || !submenu) return;
+
+        // 🔥 מצב התחלתי: Works פתוח (רק אם רוצים לפי class)
+        if (menu.classList.contains("works-menu")) {
+            submenu.classList.add("is-open");
+            openMenu = submenu;
+        }
+
+        toggle.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const isOpen = submenu.classList.contains("is-open");
+
+            // סגור את מה שפתוח (אקורדיון)
+            if (openMenu && openMenu !== submenu) {
+                openMenu.classList.remove("is-open");
+            }
+
+            // toggle על הנוכחי
+            if (isOpen) {
+                submenu.classList.remove("is-open");
+                openMenu = null;
+            } else {
+                submenu.classList.add("is-open");
+                openMenu = submenu;
+            }
+        });
+    });
+
+});
+</script>
+
     
 </body>
 
